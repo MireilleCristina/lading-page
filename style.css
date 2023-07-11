@@ -59,12 +59,18 @@ li{
     height:80px;
     background-color: yellow;
     animation: move-left 5s infinite alternate;
+    transition: all ease-in-out .1s;
 }
 #container-estrelas{
     display:flex;
     flex-direction: row;
     width: 100%;
     height: fit-content;
+    
+}
+.estrela:hover{
+    background-color: aqua;
+
 }
 
 @KeyFrames move-left{
