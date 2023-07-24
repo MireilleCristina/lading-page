@@ -77,54 +77,16 @@ li{
     from{transform:translateX(0);}
     to{transform:translateX(1024px);}
     
+}div{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width:30%;
+    margin-top: 25px;
 }
-/*.estrela{
-    width: 500px;
-    height: 200px;
-    overflow: hidden;
-    
-    /*width:100%;
-    height:100vh;
-    overflow:hidden;*/
-   /* background-image:url("imagem/fotoEstrela.jpg");
-    background-repeat:no repeat;
-    position:relative;/*
-}
- /*.estrela img{
-    width:100%;
-    height:100%;
-    transition:all 1s ease;
-    position:absolute;
-    left:15%;
-    top:15%;
-    animation: fadeInFromTop .5s linear forward, floating ease 4s infinite;
-}
-/*@KeyFrames fadeInFromTop{
-    from{
-        opacity:0;
-        transform: translatey(-20px);
-    }
-    top{
-        opacity:1;
-        transform: translatey(0);
-    }
-}
-@KeyFrames floating{
+h3{
+    width: 30%;
+    text-align: center;
+    font-size: 1.5em;
 
-    0%{
-        transform:translate(0%,0%) rotate(360deg);
-    }
-    25%{
-        transform:translate(5%,15%) rotate(360deg);
-    }
-    50%{
-        transform:translate(10%,5%) rotate(360deg);
-    }
-    75%{
-        transform:translate(0%,15%) rotate(360deg);
-    }
-    100%{
-        transform::translate(0%,15%)rotate(360deg);
-    }
-
-}*/
+}
